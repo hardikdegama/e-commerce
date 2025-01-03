@@ -6,14 +6,16 @@ import Home from "./pages/Home";
 import ProductDetails from "./pages/Product.jsx";
 import Cart from "./pages/Cart";
 import Products from "./pages/ProductsDetailsPage.jsx"; // Import Products page
-import Navbar from "./components/Navbar";
+import Navigationbar from "./Components/Navbar.jsx";
+// import Navbar from "./components/Navbar.jsx";
+// import Navbar from "";
 // import Navbar from "./Components/Navbar.jsx";
 
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+      <Navigationbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products/:id" element={<Products />} />
