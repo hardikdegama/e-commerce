@@ -7,6 +7,7 @@ import ProductDetails from "./pages/Product.jsx";
 import Cart from "./pages/Cart";
 import Products from "./pages/ProductsDetailsPage.jsx"; // Import Products page
 import Navbar from "./Components/Navbar.jsx";
+// import Navbar from "./Components/Navbar.jsx";
 
 
 const App = () => {
