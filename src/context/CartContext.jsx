@@ -9,8 +9,9 @@ const CartContext = createContext();
 export const useCart = () => useContext(CartContext);
 
 // CartProvider component to wrap the app and provide the cart state
+// eslint-disable-next-line react/prop-types
 export const CartProvider = ({ children }) => {
-  const [cart, setCart] = useState([]);
+  const [cart, setCart] = useState([]); // Initialize cart as an empty array
 
   // Add a product to the cart
   const addToCart = (product) => {

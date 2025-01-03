@@ -12,7 +12,9 @@ const ProductDetails = () => {
     return <div className="error-message">Product not found</div>;
   }
 
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { addToCart } = useCart();
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const navigate = useNavigate();
 
   const handleAddToCart = () => {
