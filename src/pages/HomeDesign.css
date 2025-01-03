@@ -1,0 +1,97 @@
+/* Home.css */
+
+/* Background section with gradient */
+.background-section {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, rgb(218, 133, 147), rgb(7, 70, 180)); /* Gradient from pink to blue */
+    padding: 20px;
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 10px; /* Rounded corners for the section */
+  }
+  
+  /* Text side styling */
+  .text-side {
+    flex: 1; /* Take up half the space */
+    padding: 20px;
+    color: white; /* White text for contrast */
+  }
+  
+  .text {
+    font-size: 50px; /* Medium font size */
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5;
+    opacity: 0.9; /* Slightly transparent text */
+  }
+  
+  /* Image side styling */
+  .image-side {
+    flex: 1; /* Take up the other half of the space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .side-image {
+    width: 50%; /* Make image smaller to fit */
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
+    transition: transform 0.3s ease; /* Smooth zoom on hover */
+  }
+  
+  /* Hover effect for image */
+  .side-image:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  /* Product section */
+  .home {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .product {
+    border: 1px solid #ccc; /* Light border */
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    transition: transform 0.2s ease; /* Smooth hover effect */
+  }
+  
+  .product:hover {
+    transform: scale(1.05); /* Slight zoom effect on product hover */
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .product p {
+    font-size: 16px;
+    color: #555; /* Slightly darker text */
+  }
+  
+  .product .btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .product .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

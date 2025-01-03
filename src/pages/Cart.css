@@ -1,0 +1,125 @@
+/* Cart.css */
+.cart-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f4f7fa, #e8f0fe);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .empty-cart-message {
+    font-size: 1.4rem;
+    color: #777;
+    margin-top: 50px;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .cart-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cart-item-image {
+    flex-shrink: 0;
+  }
+  
+  .cart-item-image img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-item-details {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the price, quantity, and remove button */
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .cart-item-name {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .cart-item-price,
+  .cart-item-quantity {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .remove-item-btn {
+    background: linear-gradient(135deg, #ff4d4d, #ff2a2a);
+    color: white;
+    padding: 10px 18px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .remove-item-btn:hover {
+    background: linear-gradient(135deg, #ff2a2a, #ff4d4d);
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .cart-item {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 90%;
+    }
+  
+    .cart-item-image img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .cart-item-details {
+      flex-direction: column;
+      gap: 10px; /* Stack the details vertically on smaller screens */
+      text-align: left;
+    }
+  }
+  
+  .buynew{
+    font-size: 50px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }  
