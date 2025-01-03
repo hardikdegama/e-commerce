@@ -6,6 +6,7 @@ import { createContext, useContext, useState } from "react";
 const CartContext = createContext();
 
 // Custom hook to use the cart context
+// eslint-disable-next-line react-refresh/only-export-components
 export const useCart = () => useContext(CartContext);
 
 // CartProvider component to wrap the app and provide the cart state
