@@ -6,7 +6,9 @@ import Home from "./pages/Home";
 import ProductDetails from "./pages/Product.jsx";
 import Cart from "./pages/Cart";
 import Products from "./pages/ProductsDetailsPage.jsx"; // Import Products page
-import Navigationbar from "./Components/Navbar.jsx";
+// import Navigationbar from "./Components/Navbar.jsx";
+import Navigationbar from '@components/Navbar.jsx';
+
 // import Navbar from "./components/Navbar.jsx";
 // import Navbar from "";
 // import Navbar from "./Components/Navbar.jsx";
