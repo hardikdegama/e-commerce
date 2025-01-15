@@ -18,7 +18,7 @@ const Home = () => {
         </div>
         <div className="image-side">
           <img
-            src="/public/homepage.avif" // Replace with your image URL
+            src="/homepage.avif" // Replace with your image URL
             alt="Food Delivery"
             className="side-image"
           />
